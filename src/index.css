@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-150vh);
+    opacity: 0;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.auto-scroll {
+  animation: scroll-left 70s linear infinite;
+}
+html {
+  scroll-behavior: smooth;
+}
