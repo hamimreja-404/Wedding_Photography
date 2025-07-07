@@ -5,27 +5,27 @@ export default function Hero() {
     {
       label: "FRIENDS & FAMILY",
       image:
-        "https://images.pexels.com/photos/8617764/pexels-photo-8617764.jpeg",
+        "https://images.pexels.com/photos/11749505/pexels-photo-11749505.jpeg",
     },
     {
       label: "RINGS",
       image:
-        "https://images.pexels.com/photos/1705066/pexels-photo-1705066.jpeg",
+        "https://images.pexels.com/photos/14469535/pexels-photo-14469535.jpeg",
     },
     {
-      label: "BLACK & WHITE",
+      label: "Haldi",
       image:
-        "https://images.pexels.com/photos/2034912/pexels-photo-2034912.jpeg",
+        "https://images.pexels.com/photos/1345352/pexels-photo-1345352.jpeg",
     },
     {
       label: "BEST MOMENTS",
       image:
-        "https://images.pexels.com/photos/1782511/pexels-photo-1782511.jpeg",
+        "https://images.pexels.com/photos/4539899/pexels-photo-4539899.jpeg",
     },
     {
-      label: "CHURCH",
+      label: "Sindoor",
       image:
-        "https://images.pexels.com/photos/1762257/pexels-photo-1762257.jpeg",
+        "https://images.pexels.com/photos/30184615/pexels-photo-30184615.jpeg",
     },
   ];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
